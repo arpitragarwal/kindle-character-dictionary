@@ -1,0 +1,57 @@
+Andrew "Ender" Wiggin	The protagonist, a brilliant child strategist drafted into Battle School who unknowingly commands humanity's final victory over the Formics.
+Andrew	The protagonist, a brilliant child strategist drafted into Battle School who unknowingly commands humanity's final victory over the Formics.
+Ender	The protagonist, a brilliant child strategist drafted into Battle School who unknowingly commands humanity's final victory over the Formics.
+Valentine Wiggin	Ender's compassionate older sister who stays in touch with him and later writes as the political pundit Demosthenes.
+Valentine	Ender's compassionate older sister who stays in touch with him and later writes as the political pundit Demosthenes.
+Peter Wiggin	Ender's cruel, manipulative older brother who writes as Locke and aspires to rule Earth.
+Peter	Ender's cruel, manipulative older brother who writes as Locke and aspires to rule Earth.
+John Paul Wiggin	Ender's father, who agreed to have a third child for the International Fleet's Battle School program.
+John Paul	Ender's father, who agreed to have a third child for the International Fleet's Battle School program.
+Theresa Wiggin	Ender's mother, who struggles with letting Ender leave for Battle School.
+Theresa	Ender's mother, who struggles with letting Ender leave for Battle School.
+Colonel Hyrum Graff	Principal of Battle School who deliberately isolates and pressures Ender to shape him into a commander.
+Hyrum	Principal of Battle School who deliberately isolates and pressures Ender to shape him into a commander.
+Graff	Principal of Battle School who deliberately isolates and pressures Ender to shape him into a commander.
+Major Anderson	Graff's second-in-command at Battle School who runs the Battle Room and sometimes questions Graff's methods.
+Anderson	Graff's second-in-command at Battle School who runs the Battle Room and sometimes questions Graff's methods.
+Mazer Rackham	The legendary commander who stopped the Second Formic Invasion and later trains Ender at Command School, revealed as the one running the "final exam."
+Mazer	The legendary commander who stopped the Second Formic Invasion and later trains Ender at Command School, revealed as the one running the "final exam."
+Rackham	The legendary commander who stopped the Second Formic Invasion and later trains Ender at Command School, revealed as the one running the "final exam."
+Dap	The officer who meets Ender when he first arrives at Battle School and serves as his initial guide.
+Stilson	A bully at Ender's school on Earth who gangs up on Ender; Ender defeats him so thoroughly that Stilson later dies from his injuries.
+Bernard	A bully in Ender's launch group at Battle School whose control Ender breaks with computer pranks and fake messages.
+Shen	A launchy in Ender's group who is mocked by Bernard until Ender befriends him and becomes his first friend at Battle School.
+Alai	One of Ender's first friends at Battle School, a skilled soldier who greets him with "salaam" and becomes a close ally and later a key commander in Ender's jeesh.
+Bonzo Madrid	The proud commander of Salamander Army who forbids Ender to fight and later leads six boys to attack Ender in the bathroom, where he is accidentally killed.
+Bonzo	The proud commander of Salamander Army who forbids Ender to fight and later leads six boys to attack Ender in the bathroom, where he is accidentally killed.
+Petra Arkanian	The only girl in Salamander Army when Ender joins; a gifted shooter who later serves in Ender's Dragon Army and his jeesh at Command School.
+Petra	The only girl in Salamander Army when Ender joins; a gifted shooter who later serves in Ender's Dragon Army and his jeesh at Command School.
+Dink Meeker	A toon leader who doubts the war is real but stays for the game; he refuses command twice and eventually becomes one of Ender's trusted commanders.
+Dink	A toon leader who doubts the war is real but stays for the game; he refuses command twice and eventually becomes one of Ender's trusted commanders.
+Rose de Nose	Commander of Rat Army when Ender is transferred there; the only Jewish commander at the time and more fair to Ender than Bonzo.
+Rose	Commander of Rat Army when Ender is transferred there; the only Jewish commander at the time and more fair to Ender than Bonzo.
+Pol Slattery	Commander of Leopard Army who surprises Salamander with new tactics and forces a draw when Ender disobeys Bonzo and fights alone.
+Pol	Commander of Leopard Army who surprises Salamander with new tactics and forces a draw when Ender disobeys Bonzo and fights alone.
+Bean	The smallest and one of the smartest soldiers, whom Ender isolates to make him stronger; he becomes a key toon leader in Dragon Army and in the final war.
+Carn Carby	Commander of Rabbit Army, the first to face Ender's Dragon Army; he respects Ender and tells him to beat the others soundly.
+Carn	Commander of Rabbit Army, the first to face Ender's Dragon Army; he respects Ender and tells him to beat the others soundly.
+William Bee	Commander of Griffin Army in the two-on-one battle against Dragon Army alongside Tiger Army.
+William	Commander of Griffin Army in the two-on-one battle against Dragon Army alongside Tiger Army.
+Talo Momoe	Commander of Tiger Army in the two-on-one battle against Dragon Army; he favors a direct frontal assault.
+Talo	Commander of Tiger Army in the two-on-one battle against Dragon Army; he favors a direct frontal assault.
+Crazy Tom	British veteran who leads C Toon in Dragon Army and is known for his temper with commanders he considers stupid.
+Tom	British veteran who leads C Toon in Dragon Army and is known for his temper with commanders he considers stupid.
+Fly Molo	Filipino soldier who leads A Toon in Dragon Army and initially doubts Ender's five-toon strategy before accepting it.
+Fly	Filipino soldier who leads A Toon in Dragon Army and initially doubts Ender's five-toon strategy before accepting it.
+Han Tzu (Hot Soup)	Chinese soldier who leads D Toon in Dragon Army and later serves under Ender at Command School during the Third Invasion.
+Han Tzu	Chinese soldier who leads D Toon in Dragon Army and later serves under Ender at Command School during the Third Invasion.
+Hot Soup	Chinese soldier who leads D Toon in Dragon Army and later serves under Ender at Command School during the Third Invasion.
+Vlad	Belarusian soldier who leads B Toon in Dragon Army and is one of the eleven chosen for Ender's jeesh in the war.
+Dumper (Champi T'it'u)	Peruvian soldier who leads E Toon in Dragon Army and is among the most loyal to Ender.
+Dumper	Peruvian soldier who leads E Toon in Dragon Army and is among the most loyal to Ender.
+Champi T'it'u	Peruvian soldier who leads E Toon in Dragon Army and is among the most loyal to Ender.
+Pinual	A former Battle School student who committed suicide after the Giant's Drink in the Mind Game; mentioned by the staff as a caution.
+The Hive Queen	The Formic queen whose consciousness Ender encounters in the Mind Game and whose cocooned egg he discovers after the war.
+Hive Queen	The Formic queen whose consciousness Ender encounters in the Mind Game and whose cocooned egg he discovers after the war.
+Demosthenes	Valentine Wiggin's pseudonym as an influential political essayist whose rabble-rousing writings contrast with Locke's.
+Locke	Peter Wiggin's pseudonym as a calm, statesmanlike political essayist whose writings pair with Demosthenes to shape global opinion.
