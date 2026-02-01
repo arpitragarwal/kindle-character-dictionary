@@ -183,7 +183,7 @@ def readkeys():
 def writekeyfile(name, i):
     fname = "{}{}.html".format(name, i)
     if VERBOSE: print("Key file: {}".format(fname))
-    with open(fname, 'w') as to:
+    with open(fname, 'w', encoding='utf-8') as to:
         to.write("""<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:idx="www.mobipocket.com" xmlns:mbp="www.mobipocket.com" xmlns:xlink="http://www.w3.org/1999/xlink">
   <body>
@@ -260,7 +260,7 @@ def writekeys(defns, name):
 def openopf(ndicts, name):
     fname = "%s.opf" % name
     if VERBOSE: print("Opf: {}".format(fname))
-    with open(fname, 'w') as to:
+    with open(fname, 'w', encoding='utf-8') as to:
         to.write("""<?xml version="1.0"?><!DOCTYPE package SYSTEM "oeb1.ent">
 
 <!-- the command line instruction 'prcgen dictionary.opf' will produce the dictionary.prc file in the same folder-->
