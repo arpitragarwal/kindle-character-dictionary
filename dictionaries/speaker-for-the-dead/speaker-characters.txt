@@ -1,0 +1,45 @@
+Andrew Wiggin	The Speaker for the Dead; Ender, who travels to Lusitania to speak the deaths of Pipo and Marcão and becomes entwined with the Ribeira family.
+Ender	The Speaker for the Dead; Ender, who travels to Lusitania to speak the deaths of Pipo and Marcão and becomes entwined with the Ribeira family.
+Andrew	The Speaker for the Dead; Ender, who travels to Lusitania to speak the deaths of Pipo and Marcão and becomes entwined with the Ribeira family.
+Jane	The ansible-born AI who communicates with Ender across space and helps him navigate the Lusitania crisis.
+Valentine Wiggin	Ender's sister, who later travels to Lusitania with her family to support Ender and the colony.
+Valentine	Ender's sister, who later travels to Lusitania with her family to support Ender and the colony.
+Pipo Figueira	The first xenologer of Lusitania; a father-figure to young Novinha, and the first human killed by the pequeninos in a tragic misunderstanding of "third life."
+Pipo	The first xenologer of Lusitania; a father-figure to young Novinha, and the first human killed by the pequeninos in a tragic misunderstanding of "third life."
+Conceição Figueira	Pipo's wife and the archivist of Lusitania.
+Conceição	Pipo's wife and the archivist of Lusitania.
+Libo Figueira	Pipo's son and xenologer after his death; Novinha's first love and the biological father of her children; like Pipo, he is killed by the pequeninos when asked to bring one of them to "third life."
+Libo	Pipo's son and xenologer after his death; Novinha's first love and the biological father of her children; like Pipo, he is killed by the pequeninos when asked to bring one of them to "third life."
+Bruxinha	Libo's wife; her name means "little witch" in Portuguese.
+Ouanda Figueira	Libo and Bruxinha's eldest daughter, a xenologer who falls in love with Miro and works with the pequeninos.
+Ouanda	Libo and Bruxinha's eldest daughter, a xenologer who falls in love with Miro and works with the pequeninos.
+Gusto	Novinha's father; a xenobiologist who with his wife Cida cured the Descolada virus; he and Cida are beatified as Os Venerados.
+Cida	Novinha's mother; a xenobiologist who with Gusto cured the Descolada virus; she and Gusto are beatified as Os Venerados.
+Novinha	The colony's xenobiologist; orphaned young, she marries the abusive Marcão to avoid giving Libo access to files she believes caused Pipo's death; her call for a Speaker draws Ender to Lusitania.
+Marcão	Novinha's late husband; a large, violent man who beat his wife; he dies of a congenital illness shortly before Ender arrives; his Speaking reveals that Novinha's children are Libo's.
+Marcos Ribeira	Novinha's late husband; a large, violent man who beat his wife; he dies of a congenital illness shortly before Ender arrives; his Speaking reveals that Novinha's children are Libo's.
+Miro Ribeira	Novinha's eldest child; a xenologist who loves Ouanda; he is crippled when he tries to cross the fence to the pequeninos' land.
+Miro	Novinha's eldest child; a xenologist who loves Ouanda; he is crippled when he tries to cross the fence to the pequeninos' land.
+Ela Ribeira	Novinha's second child; a xenobiologist who is one of the first in the family to warm to Ender and who later works on the descolada.
+Ela	Novinha's second child; a xenobiologist who is one of the first in the family to warm to Ender and who later works on the descolada.
+Quim	Novinha's third child, Estevão; a devout Catholic who initially resists Ender but later becomes the first evangelist to the pequeninos.
+Estevão	Novinha's third child; a devout Catholic who initially resists Ender but later becomes the first evangelist to the pequeninos.
+Olhado	Novinha's fourth child, Lauro; blinded in an accident, he has metal eye implants and can jack into computers; he warms to Ender and calls him Father.
+Lauro	Novinha's fourth child; blinded in an accident, he has metal eye implants; he warms to Ender and calls him Father.
+Quara	Novinha's fifth child; stubborn and contrary, she becomes a xenobiologist and assists Ela with the descolada.
+Grego	Novinha's sixth child; as a boy he has a violent temper; he is six when Ender arrives.
+Bosquinha	Governor of Lusitania and mayor of the colony Milagre.
+Peregrino	Bishop of the Catholic church on Lusitania.
+Dom Cristão	Abbot of the order Filhos de Mente de Cristo (Children of the Mind of Christ) on Lusitania.
+Cristão	Abbot of the order Filhos de Mente de Cristo (Children of the Mind of Christ) on Lusitania.
+Dona Cristã	The principal of the order Children of the Mind of Christ on Lusitania.
+Cristã	The principal of the order Children of the Mind of Christ on Lusitania.
+Rooter	One of the first pequeninos; inquisitive and close to Libo; he is brought into his "third life" as a father-tree by the pequeninos.
+Mandachuva	The pequenino who brought news of the Descolada to the wives; when Pipo was asked to bring Mandachuva to "third life," Pipo refused, and the pequeninos killed Pipo thinking they were rewarding him.
+Leaf-eater	The pequenino who convinced the wives to allow more births and Libo to help with the resulting famine; Libo was then asked to bring Leaf-eater to third life; Leaf-eater killed Libo in the same misunderstanding.
+Human	A pequenino, son of Rooter; Ender performs the ritual to bring him to third life as a father-tree; Ender later writes "The Life of Human" in his memory.
+Star-looker	A pequenino wife who represents her people in the treaty with the humans; the brothers call her "Shouter" for her loud voice.
+Shouter	A pequenino wife who represents her people in the treaty with the humans; also called Star-looker.
+Arrow	A pequenino mentioned in Speaker for the Dead; his name reflects human influence on pequenino culture.
+Pequeninos	The native sentient species of Lusitania, called "piggies" by humans; they have a complex life cycle including a "third life" as trees.
+piggies	The native sentient species of Lusitania, called pequeninos in Portuguese; they have a complex life cycle including a "third life" as trees.
