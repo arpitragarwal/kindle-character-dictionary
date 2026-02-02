@@ -1,37 +1,90 @@
-# tab2opf
-Remake of tab2opf dictionary builder for kindle
+# Kindle Character Dictionary
 
-Script to convert tab delimited dictionary files into opf file to run
-with kindlegen into a translation lookup dictionary for kindle.
+## Objective
 
-Based on the generally available tab2opf.py by Klokan Petr Přidal
-(www.klokan.cz) from 2007
+Add the ability to look up character definitions (and a full English dictionary) on Kindle. You can use a combined dictionary: GCIDE (plain English) plus a book’s character list, so looking up a name shows a short character description tagged with `[Character]`, and normal words show standard definitions.
 
-The script has been mostly rewritten and extended. The encoding
-convolutions have been removed, and the code migrated to python3
+---
 
-The input form is:
-Word(s) \\t Definition
+## Sources / Dependencies
 
-By running tab2opf.py path/file.txt in the current directory file.opf
-and file*.html are created which can then be converted with kindlegen
-file.opf into file.mobi
+- **tab2opf** – Converts tab-delimited dictionary files into OPF/HTML for Kindle. (Included; based on [Klokan Petr Přidal’s tab2opf](https://github.com/apeyser/tab2opf), migrated to Python 3.)
+- **GCIDE** – [GNU Collaborative International Dictionary of English](https://savannah.gnu.org/projects/gcide/). Plain English definitions. You supply the GCIDE XML; the repo script `gcide2tab.py` converts it to tab format.
+- **KindleGen** – Amazon’s command-line tool that builds `.mobi` from OPF. Install via [Kindle Previewer](https://www.amazon.com/Kindle-Previewer/b?node=21381691011) (kindlegen is in the app’s `lib/fc/bin/` folder). Set `KINDLEGEN` to the full path to `kindlegen.exe`, or add it to your PATH.
+- **Python 3** – Required to run the scripts.
 
---source and --target options define which language to which we are
-translating.
+---
 
-tab2opf has a -m option to load a module to load getkey and getdef
-functions and mapping dictionary from that namespace into the current
-one; if it doesn't find such defined member(s), no error is produced.
+## How to run
 
-getkey converts the term (the Word(s)) into a search key.  getdef
-converts Definition in some arbitrary way.  mapping is a dictionary
-mapping from char -> char to replace some set of characters in the
-input with characters in the output.
+### 1. One-time: build the GCIDE tab file
 
-Used and tested is the dictcc.py, which converts a dict.cc german ->
-english dictionary (http://www.dict.cc/?s=about%3Awordlist&l=e). The
-keys are the longest word in the Word(s) after removal of
-prepositional phrases and some pronouns (in getkey). The definitions
-remap the dict.cc pattern of "definition \\t part-of-speech" into
-(part-of-speech) definiton.
+Download [GCIDE XML](https://www.ibiblio.org/webster/) and extract it under `dictionaries/gcide_xml-0.53/gcide_xml-0.53/` (or pass that folder as the first argument). Then:
+
+```bash
+python gcide2tab.py [path_to_gcide_xml_dir] [output.txt]
+```
+
+Default output: `dictionaries/gcide/gcide.txt`. You only need to do this once (or when you update GCIDE).
+
+### 2. Per book: merge GCIDE + character list and build .mobi
+
+Ensure the book has a tab-delimited character file in its folder, e.g. `dictionaries/speaker-for-the-dead/speaker-characters.txt` (format: `Character Name\tOne-line description`).
+
+Run:
+
+```bash
+python merge_gcide_with_characters.py <book_folder>
+```
+
+Example:
+
+```bash
+python merge_gcide_with_characters.py speaker-for-the-dead
+```
+
+This script will:
+
+1. Build a union file: all GCIDE entries + all character entries (character definitions are prefixed with `[Character] `).
+2. Run tab2opf to generate OPF and HTML.
+3. Run KindleGen to produce the `.mobi` in the same book folder.
+
+Output files (e.g. for `speaker-for-the-dead`) appear in `dictionaries/<book_folder>/`:
+
+- `speaker-characters-and-gcide.txt` (union)
+- `speaker-characters-and-gcide.opf` / `.html`
+- `speaker-characters-and-gcide.mobi`
+
+Copy the `.mobi` to your Kindle’s `documents/dictionaries/` and set it as the dictionary (or an additional dictionary) in device settings.
+
+### Optional: KINDLEGEN path
+
+If KindleGen is not on your PATH, set:
+
+```bash
+# Windows (PowerShell)
+$env:KINDLEGEN = "C:\Path\To\Kindle Previewer 3\lib\fc\bin\kindlegen.exe"
+
+# Windows (cmd)
+set KINDLEGEN=C:\Path\To\Kindle Previewer 3\lib\fc\bin\kindlegen.exe
+
+# Linux / macOS
+export KINDLEGEN=/path/to/kindlegen
+```
+
+On Windows, the script also looks under `%LOCALAPPDATA%\Amazon\Kindle Previewer 3\lib\fc\bin\kindlegen.exe` if `KINDLEGEN` is not set.
+
+---
+
+## tab2opf (standalone)
+
+To build a dictionary from a single tab file (e.g. characters only, no GCIDE):
+
+```bash
+cd dictionaries/<book_folder>
+python ../../tab2opf.py <filename>.txt
+```
+
+Then run KindleGen on the generated `.opf` (e.g. via `build.bat` if you use it, or call `kindlegen` yourself).
+
+Input format: one line per entry, `Word(s)\tDefinition`.
